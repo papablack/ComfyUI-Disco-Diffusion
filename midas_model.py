@@ -17,10 +17,10 @@ from guided_diffusion.script_util import create_model_and_diffusion, model_and_d
 import numpy as np
 from numpy import asarray
 
-from midas.dpt_depth import DPTDepthModel
-from midas.midas_net import MidasNet
-from midas.midas_net_custom import MidasNet_small
-from midas.transforms import Resize, NormalizeImage, PrepareForNet
+from .MiDaS.midas.dpt_depth import DPTDepthModel
+from .MiDaS.midas.midas_net import MidasNet
+from .MiDaS.midas.midas_net_custom import MidasNet_small
+from .MiDaS.midas.transforms import Resize, NormalizeImage, PrepareForNet
 
 import comfy.model_management
 
